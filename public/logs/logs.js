@@ -4,7 +4,8 @@ async function getData()
             const json = await response.json();
             console.log(json);
 
-            var map = L.map('map').setView([0, 0], 5);
+            
+            var map = L.map('map').setView([0, 0],1);
             
 
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

@@ -3,11 +3,11 @@ function setup()
       {
         console.log("here0");
         noCanvas();
-      const video = createCapture(VIDEO);
-      video.size(320, 240);
+      // const video = createCapture(VIDEO);
+      // video.size(320, 240);
 
-      video.loadPixels();
-      const image64 = video.canvas.toDataURL();
+      // video.loadPixels();
+      // const image64 = video.canvas.toDataURL();
 
       if("geolocation" in navigator)
       {
@@ -41,7 +41,7 @@ function setup()
 
 
 
-      const data = {lat, lon, image64, proxy_json};
+      const data = {lat, lon, proxy_json};
       //console.log(data);
 
       const options = {
