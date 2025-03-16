@@ -69,7 +69,6 @@ app.get('/weather/:latlon', async (request, response) =>
     const latlon = request.params.latlon.split(',');
     const lat = latlon[0];
     const lon = latlon[1];
-    //const api_key = '522423cc67f1a0538d1f2f4dac5ccb40' ;
     const api_key = process.env.API_KEY;
     //api_url = 'http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&appid=${API_key}'
     const weather_url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}`
