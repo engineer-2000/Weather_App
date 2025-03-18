@@ -5,8 +5,8 @@ temperature.
 Then the server sends a GET request to the Air Quality API of the Open-Meteo website, sends the latitude and longitude, 
 and gets the air quality indices for this location, and displays the concentration of particulate matter.
 
-The client side sends all the information to the server with a POST request, and all information for each check-in are 
-saved to a data base created using NeDB.
+The client side sends all the information to the server with a POST request, and all information for each check-in is 
+saved to a database created using NeDB.
 
 On the View Check-ins page, the user can see the locations of all the check-ins, displayed on the map with markers.
 The map has been created using Leaflet. 
