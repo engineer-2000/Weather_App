@@ -2,11 +2,10 @@ The Server Side File:
     &emsp;&emsp; index.js
 
 The Client Side Files:  
-    &emsp;&emsp; Main page:  
+    &emsp;&emsp; 'Check in' page (main page):  
     &emsp;&emsp; /public/index.html  
-    &emsp;&emsp; /public/sketch.js  
-    
-view check-ins page:  
+    &emsp;&emsp; /public/sketch.js    
+    &emsp;&emsp; 'View Check-ins' page:  
     &emsp;&emsp; /public/logs/index.html  
     &emsp;&emsp; /public/logs/logs.js
 
