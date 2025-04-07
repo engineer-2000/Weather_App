@@ -1,14 +1,14 @@
-The Server Side File:
-    index.js
+The Server Side File:  
+    &emsp;&emsp; index.js
 
-The Client Side Files:
-    Main page:
-    /public/index.html
-    /public/sketch.js
+The Client Side Files:  
+    &emsp;&emsp; Main page:  
+    &emsp;&emsp; /public/index.html  
+    &emsp;&emsp; /public/sketch.js  
     
-    view check-ins page:
-    /public/logs/index.html
-    /public/logs/logs.js
+view check-ins page:  
+    &emsp;&emsp; /public/logs/index.html  
+    &emsp;&emsp; /public/logs/logs.js
 
 The Weather App has two pages. On the check in page, the navigator interface finds the user's location's latitude and longitude, and displays
 them. Then the server sends a GET request to Open Weather Map API, sends the location, and gets the weather summary and temperature. 
